@@ -7,3 +7,5 @@
 # sales1.extend(sales2)
 # print(sales1)
 
+append 
+
