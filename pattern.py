@@ -18,14 +18,20 @@
 #         print(row,end=' ')
 #     print()
 
-val=[1,87,79]
-for x in range(len(val)):
-    for y in range(len(val)):
-        if val[x]<val[y]:
-            val[x],val[y]=val[y],val[x]
-        else:
-            val[x],val[y]=val[x],val[y]  
-print(val)       
+# val=[1,87,79]
+# for x in range(len(val)):
+#     for y in range(len(val)):
+#         if val[x]<val[y]:
+#             val[x],val[y]=val[y],val[x]
+#         else:
+#             val[x],val[y]=val[x],val[y]  
+# print(val)       
 
-  
+# atom= [1,66,4,56,88,99]
+# atom.sort()
+# print(atom[0]+atom[-1])#first solution
+# #another way
+# print(max(atom)+min(atom))
+
+
 
