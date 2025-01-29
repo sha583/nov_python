@@ -38,4 +38,13 @@
 
 sql={1,2,3}
 python={3,4,5}
-print(sql.union(python))
+print(sql.intersection(python))
+print(sql.difference(python))
+print(sql.intersection(python))
+
+sql={1,2,3,4,5}
+python={1,6,7,8}
+aws={1,4,5,6,99}
+print(sql.intersection(python,aws))
+print(sql)
+
