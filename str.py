@@ -77,5 +77,10 @@
 #         print('wrong ans')
 # print("percentage",((corr_ans/(corr_ans+wrong_ans))*100 ))    
   
-att=[1,44,66,88,[66,77],90]
-print(att[-1])
+# att=[1,44,66,88,[66,77],90]
+# print(att[-1])
+
+
+s1={1,2,3}
+s2={3,5,6}
+print(s1 & s2)
