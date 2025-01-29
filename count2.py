@@ -5,7 +5,7 @@ for x in range(1,10,2):
     print(x)
     count=count+1
     sum=sum+x
-    product=product*1
+    product=product*x
 print('total values of odd',count)  
 print('total sum of odd',sum)   
 print('total product of odd',product) 
